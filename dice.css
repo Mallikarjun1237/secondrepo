@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding:0px;
+    border: border-box;
+    background-color: antiquewhite;
+}
+.head{
+    height:80px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    padding: 10px;
+    font-size: 3rem;
+    align-items: center;
+}
+#head{
+    background-color:beige;
+    padding: 10px;
+    color: rgb(65, 62, 62);
+    border-radius: 30px;
+    border:2px solid black;
+}
+.profile{
+    margin-top: 25px;
+    height: 250px;
+    display:flex;
+    justify-content:center;
+    gap: 150px;
+    /* background-color: aqua; */
+    padding-left: 30px;
+}
+img:hover{
+    border: 2px solid black;
+    scale: 1.1;
+    cursor:pointer;
+}
+img{
+    border-radius: 50%;
+    border: 0.1px solid black
+}
+.dice{
+    display: flex;
+    justify-content: center;
+}
+#dice{ 
+    height: 150px;
+    width: 150px;
+    padding:0px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.score{
+    display: flex;
+    font-size: 6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+#message{
+    border: 2px solid black;
+    padding:3px;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    background-color: rgb(192, 182, 168) ;
+    color: rgb(23, 29, 29);
+}
+#reset{
+    margin-left: 60px;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border:2px solid black;
+    font-weight:550;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(23, 29, 29);
+    cursor: pointer;
+    background-color: rgb(192, 182, 168) ;
+}
